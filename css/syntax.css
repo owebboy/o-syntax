@@ -1,0 +1,21 @@
+.syntax {
+	color: #444;
+	font-size: 100%;
+	font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
+}
+
+.hyphen {
+	color: #F7B5AC;
+}
+
+.bracket {
+	color: #6638F0;
+}
+
+.period {
+	color: #00A9ED;
+}
+
+.underscore {
+	color: #25E4BF;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>o-syntax v1</title>
+    
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/o.css" rel="stylesheet" type="text/css">
+    <link href="css/syntax.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+    <header>
+		<h1 class="title">o-syntax v1</h1>
+		<h2>naming conventions for the o-internet.</h2>
+	</header>
+	
+	<div class="content">
+		<section id="normal-syntax">
+			<article>
+				<h2><a class="link" href="#normal-syntax">#</a>Normal Syntax</h2>
+				<p>o-syntax was designed for basic file organization for human and computer reading. The use of this syntax is to allow the computer and user to read metadata and use it for quick file finding.</p>
+			</article>
+			<div class="example">
+				<p class="fig">fig 1.1</p>
+				<p class="syntax">[author]-content_name-[version] | [volume].[extension]</p>
+			</div>
+		</section>
+		
+		<section id="hyphenation">
+			<article>
+				<h2><a class="link" href="#hyphenation">#</a>Hypehenation</h2>
+				<p>This is what is used to designate each part of the name.</p>
+			</article>
+			<div class="example">
+				<p class="fig">fig 2.1</p>
+				<p class="syntax">[author]<b>-</b>content_name<b>-</b>[volume].[extension]</p>
+			</div>
+		</section>
+		
+		<section id="authorship">
+			<article>
+				<h2><a class="link" href="#authorship">#</a>Defining Authorship</h2>
+				<p>An <b>author</b> of any form of content shall delineate their authorship by the use of prefixing the title of the project with a symbolic representation of their name.</p>
+			</article>
+			<div class="example">
+				<p class="fig">fig 3.1</p>
+				<p class="syntax"><b>owebboy</b>-content_name</p>
+				<p class="syntax"><b>o</b>-content_name</p>
+				<p class="syntax"><b>oliver_pope</b>-content_name</p>
+			</div>
+		</section>
+		
+		<section id="versioning">
+			<article>
+				<h2><a class="link" href="#versioning">#</a>Versioning (Volumes)</h2>
+				<p>The <b>version</b> of a file determines the file's reputation and age in the project or database (4.1). An alternate form of organization would be <b>volumes</b> to show file's recency (4.2).</p>
+				<p class="note">To help reduce redundancy, the file's version may use a file hierarchy characterized by a period.</p>
+			</article>
+			<div class="example">
+				<p class="fig">fig 4.1</p>
+				<p class="syntax">[author]-content_name-<b>1.0</b></p>
+				<p class="fig">fig 4.2</p>
+				<p class="syntax">[author]-content_name-<b>IX</b></p>
+				<p class="syntax">[author]-content_name-<b>2</b></p>
+			</div>
+		</section>
+		
+		<section id="extensions">
+			<article>
+				<h2><a class="link" href="#extensions">#</a>Extensions</h2>
+				<p><b>Extensions</b> come at the end of the file and show the file's content-type</p>
+			</article>
+			<div class="example">
+				<p class="fig">fig 5.1</p>
+				<p class="syntax">[author]-content_name-[version] | [volume].<b>jpg</b></p>
+			</div>
+		</section>
+	</div>
+	
+	<script src="js/global.js"></script>
+</body>
+</html>
